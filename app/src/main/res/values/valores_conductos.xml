@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valores_conductos">
+        <item>Conducto...</item>
+        <item>777-AeroFlash</item>
+        <item>801-Flecha Amarilla</item>
+        <item>930-Fedex</item>
+        <item>803-Senda Express</item>
+        <item>932-Cam. Biochem</item>
+        <item>889-Venta de Mano</item>
+        <item>937-DYPAQ</item>
+    </string-array>
+</resources>

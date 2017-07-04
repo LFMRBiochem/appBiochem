@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valores_tipo_venta">
+        <item>Tipo de Venta...</item>
+        <item>Almacen</item>
+        <item>Mano</item>
+        <item>Extendido</item>
+    </string-array>
+</resources>

@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_fondo"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical"
+        tools:context="mx.com.sybrem.appbiochem.CapturaBonificacion"
+        tools:showIn="@layout/activity_captura_bonificacion">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bonificacion: "
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtBonificacion"
+                    android:textSize="20dp" />
+            </TableRow>
+
+        </TableLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:text=""
+                    android:ems="1"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/almacen"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:ems="1"/>
+                <TextView
+                    android:text="@string/lbl_producto"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:ems="5"/>
+                <TextView
+                    android:text="@string/lbl_precio"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:ems="5"/>
+                <TextView
+                    android:text="@string/lbl_porcentaje_desc"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:ems="5"/>
+                <TextView
+                    android:text="@string/lbl_cantidad"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:ems="5"/>
+                <TextView
+                    android:text="@string/lbl_total"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen1"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto1"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto1"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto1"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto1"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen2"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto2"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto2"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto2"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto2"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto2"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen3"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto3"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto3"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto3"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto3"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto3"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen4"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto4"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto4"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto4"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto4"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto4"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen5"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto5"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto5"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto5"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto5"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto5"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen6"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto6"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto6"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto6"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto6"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto6"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen7"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto7"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto7"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto7"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto7"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto7"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen8"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto8"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto8"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto8"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto8"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto8"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen9"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto9"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto9"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto9"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto9"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto9"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen10"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto10"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto10"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto10"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto10"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto10"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen11"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto11"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto11"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto11"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto11"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto11"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen12"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto12"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto12"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto12"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto12"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto12"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen13"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto13"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto13"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto13"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto13"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto13"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen14"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto14"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto14"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto14"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto14"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto14"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lstAlmacen15"
+                    android:spinnerMode="dialog"
+                    android:background="@drawable/edittextstyle"
+                    android:ems="1"
+                    ></Spinner>
+
+                <AutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/autoCompleteProducto15"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/precioProducto15"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/porcentajeDescProducto15"
+                    android:gravity="center"
+                    android:ems="5"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cantidadProducto15"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalProducto15"
+                    android:gravity="right"
+                    android:text="0.0"
+                    android:ems="5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text=""
+                    android:ems="1"/>
+
+                <TextView
+                    android:text=""
+                    android:ems="5"/>
+
+                <TextView
+                    android:text=""
+                    android:ems="1"/>
+
+                <TextView
+                    android:text=""
+                    android:ems="1"/>
+
+                <TextView
+                    android:text=""
+                    android:ems="1"/>
+
+                <TextView
+                    android:text=""
+                    android:ems="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:text=""
+                    android:ems="1"/>
+
+                <TextView
+                    android:text=""
+                    android:ems="1"/>
+
+                <TextView
+                    android:text=""
+                    android:ems="1"/>
+
+                <TextView
+                    android:text=""
+                    android:ems="1"/>
+
+                <TextView
+                    android:text="SUMA:"
+                    android:ems="1"
+                    android:gravity="left"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtSuma"
+                    android:text=""
+                    android:gravity="right"
+                    android:ems="1"
+                    android:textSize="20dp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="2">
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/buttonStyleSmall"
+                    android:text="@string/guardar_bonificacion"
+                    android:id="@+id/btnPedidosGuardarBonificacion"
+                    android:background="@drawable/buttonstylesiguiente"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginRight="5dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/buttonStyleSmall"
+                    android:text="@string/no_gracias"
+                    android:id="@+id/btnPedidosNoGracias"
+                    android:background="@drawable/buttonstylesalir"
+                    android:textColor="#FFFFFF"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

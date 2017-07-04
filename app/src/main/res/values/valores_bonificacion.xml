@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valores_bonificacion">
+        <item>Tipo...</item>
+        <item>Mano</item>
+        <item>Almacen</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valores_tipo_problema">
+        <item>Seleccione</item>
+        <item>POR ENVÍO</item>
+        <item>POR PRODUCTO</item>
+        <item>CUENTAS POR COBRAR</item>
+        <item>OTROS</item>
+    </string-array>
+</resources>

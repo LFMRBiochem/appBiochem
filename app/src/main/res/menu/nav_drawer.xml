@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pendientes"
+        android:orderInCategory="100"
+        android:title="Enviar datos pendientes por sincronizar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/cambiar_agente"
+        android:orderInCategory="100"
+        android:title="Cambiar de Agente"
+        app:showAsAction="never" />
+</menu>

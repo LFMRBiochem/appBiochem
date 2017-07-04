@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Novedades">
+            <menu>
+                <item
+                    android:id="@+id/nvNuevos"
+                    android:icon="@drawable/ic_prod_nuevo"
+                    android:title="Productos nuevos" />
+                <item
+                    android:id="@+id/nvPromoMes"
+                    android:icon="@drawable/ic_promo_mes"
+                    android:title="Promoción del mes" />
+            </menu>
+        </item>
+        <item android:title="Listados">
+            <menu>
+                <item
+                    android:id="@+id/lstClientes"
+                    android:icon="@drawable/ic_listado"
+                    android:title="Clientes" />
+                <item
+                    android:id="@+id/lstProductos"
+                    android:icon="@drawable/ic_listado"
+                    android:title="Productos" />
+                <item
+                    android:id="@+id/lstOfertas"
+                    android:icon="@drawable/ic_listado"
+                    android:title="Ofertas" />
+                <item
+                    android:id="@+id/lstPoliticas"
+                    android:icon="@drawable/ic_listado"
+                    android:title="Documentos Coorporativos" />
+            </menu>
+        </item>
+
+        <item android:title="Reportes">
+            <menu>
+                <item
+                    android:id="@+id/rptSegPedidos"
+                    android:icon="@drawable/ic_reporte"
+                    android:title="Seguimiento de Pedidos" />
+                <item
+                    android:id="@+id/rptSegPagos"
+                    android:icon="@drawable/ic_reporte"
+                    android:title="Seguimiento de Pagos" />
+                <item
+                    android:id="@+id/rptCapturas"
+                    android:icon="@drawable/ic_reporte"
+                    android:title="Capturas" />
+                <item
+                    android:id="@+id/rptInventario"
+                    android:icon="@drawable/ic_reporte"
+                    android:title="Inventario de Mano" />
+                <item
+                    android:id="@+id/rptRuta"
+                    android:icon="@drawable/ic_reporte"
+                    android:title="Ruta Diaria" />
+            </menu>
+        </item>
+
+        <item android:title="Procesos">
+            <menu>
+                <item
+                    android:id="@+id/prcVenta"
+                    android:icon="@drawable/ic_venta"
+                    android:title="Venta" />
+                <item
+                    android:id="@+id/prcCobranza"
+                    android:icon="@drawable/ic_cobranza"
+                    android:title="Cobranza" />
+                <item
+                    android:id="@+id/prcVisita"
+                    android:icon="@drawable/ic_visita"
+                    android:title="Registro de Visita" />
+                <item
+                    android:id="@+id/prcProspecto"
+                    android:icon="@drawable/ic_prospecto"
+                    android:title="Prospectos" />
+                <item
+                    android:id="@+id/prcCompronaciones"
+                    android:icon="@drawable/ic_comprobacion"
+                    android:title="Comprobaciones" />
+            </menu>
+        </item>
+        <item android:title="Otros">
+        <menu>
+        <item
+            android:id="@+id/sincronizar"
+            android:icon="@drawable/ic_sincronizar"
+            android:title="Sincronizar" />
+
+        <item
+            android:id="@+id/salir"
+            android:icon="@drawable/ic_salir"
+            android:title="Salir" />
+        </menu>
+        </item>
+
+    </group>
+
+
+
+</menu>

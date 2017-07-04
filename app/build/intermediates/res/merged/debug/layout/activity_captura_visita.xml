@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_captura_visita"
+    android:background="@color/color_fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="mx.com.sybrem.appbiochem.CapturaVisita">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_cliente"
+            android:id="@+id/textView"
+            android:textSize="20dp" />
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/autoCompleteClientes"
+            android:ems="20"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:background="@drawable/edittextstyle"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_comentarios"
+            android:id="@+id/lblComentarios"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:inputType="textMultiLine"
+            android:ems="20"
+            android:id="@+id/edtComentarios"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittextstyle"
+            android:textSize="20dp"
+            android:layout_marginBottom="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo de problema"
+                android:id="@+id/tipo_problem"
+                android:textSize="20dp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tipoProblema"
+                android:spinnerMode="dialog"
+                android:layout_margin="10dp"
+                android:ems="20"
+                android:background="@drawable/edittextstyle"
+                android:layout_weight="1"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Última Visita?"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/uVisita"
+                android:textStyle="normal|bold"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ult_visita"
+                android:layout_weight="1"
+                android:elevation="0dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<Spinner
+        android:id="@+id/tipoProblema"
+        android:layout_height="40dp"
+        android:layout_width="200dp" />-->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="3">
+
+    <TableRow>
+        <TextView
+            android:text=""
+            />
+    </TableRow>
+
+    <TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:text="Salir"
+        android:id="@+id/btnPedidosSalir"
+        android:background="@drawable/buttonstylesalir"
+        android:textColor="#FFFFFF"
+        android:ems="5"
+        android:layout_marginRight="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:text="@string/btn_enviar"
+        android:id="@+id/btnSaved"
+        android:background="@drawable/buttonstylesiguiente"
+        android:textColor="#FFFFFF"
+        android:ems="5"/>
+
+
+    </TableRow>
+        <TableRow>
+
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/mensaje_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LATITUDE LONGITUDE" />
+
+    </TableLayout>
+
+</LinearLayout>

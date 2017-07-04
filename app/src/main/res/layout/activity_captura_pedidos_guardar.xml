@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="mx.com.sybrem.appbiochem.CapturaPedidosGuardar">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cliente: "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/clienteGuardar"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Familia: "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FamiliaGuardar"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sub Tipo: "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SubTipoGuardar"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo de Venta: "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TipoVentaGuardar"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conducto: "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ConductoGuardar"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comentarios: "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/comentariosGuardar"
+                android:textSize="20dp"
+                android:layout_marginBottom="15dp"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obs.Ventas"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/lblComentariosVentas"
+                />
+
+            <TextView
+                android:id="@+id/mensaje_idPedidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LATITUDE LONGITUDE" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:id="@+id/edtComentariosVentas"
+                android:background="@drawable/edittextstyle"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obs.Envio"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/lblComentariosEnvio"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="20"
+                android:id="@+id/edtComentariosEnvio"
+                android:background="@drawable/edittextstyle"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+        <TextView
+            android:text=""
+            android:ems="1"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/buttonStyleSmall"
+                android:text="@string/btn_enviar"
+                android:id="@+id/btnSaved"
+                android:background="@drawable/buttonstylesiguiente"
+                android:textColor="#FFFFFF"
+                android:ems="5"
+                android:layout_marginBottom="15dp"/>
+        </TableRow>
+
+        </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="6">
+
+        <TableRow>
+
+            <TextView
+                android:text="SUMA:"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+
+                android:id="@+id/TxtSumaTotal"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:text="DESCUENTO:"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+
+                android:id="@+id/TxtDescuentoTotal"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:text="TOTAL:"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/TxtTotalTotal"
+                android:textSize="20dp"/>
+
+        </TableRow>
+
+
+        </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:text=""
+                android:ems="1"/>
+
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/txtManoLeyenda"
+                android:ems="10"/>
+
+            <TextView
+                android:text=""
+                android:ems="1"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:text="@string/lbl_producto"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:text="@string/lbl_precio"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:text="@string/lbl_porcentaje_desc"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:text="@string/lbl_cantidad"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:text="@string/lbl_total"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow>
+        <TextView
+            android:id="@+id/Producto1"
+            android:gravity="left"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:id="@+id/Precio1"
+            android:gravity="center"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/Porcentaje1"
+            android:gravity="center"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/Cantidad1"
+            android:gravity="center"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/Total1"
+            android:gravity="center"/>
+
+    </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto2"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio2"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje2"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad2"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total2"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto3"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio3"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje3"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad3"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total3"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto4"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio4"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje4"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad4"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total4"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto5"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio5"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje5"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad5"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total5"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto6"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio6"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje6"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad6"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total6"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto7"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio7"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje7"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad7"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total7"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto8"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio8"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje8"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad8"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total8"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto9"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio9"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje9"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad9"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total9"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto10"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio10"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje10"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad10"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total10"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto11"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio11"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje11"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad11"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total11"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto12"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio12"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje12"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad12"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total12"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto13"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio13"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje13"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad13"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total13"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto14"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio14"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje14"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad14"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total14"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto15"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio15"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje15"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad15"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total15"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:text=""
+                android:ems="1"/>
+
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/txtAlmacenLeyenda"
+                android:ems="10"/>
+
+            <TextView
+                android:text=""
+                android:ems="1"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto16"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio16"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje16"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad16"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total16"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto17"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio17"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje17"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad17"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total17"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto18"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio18"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje18"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad18"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total18"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto19"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio19"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje19"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad19"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total19"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto20"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio20"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje20"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad20"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total20"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto21"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio21"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje21"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad21"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total21"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto22"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio22"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje22"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad22"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total22"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto23"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio23"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje23"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad23"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total23"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto24"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio24"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje24"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad24"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total24"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto25"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio25"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje25"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad25"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total25"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto26"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio26"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje26"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad26"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total26"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto27"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio27"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje27"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad27"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total27"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto28"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio28"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje28"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad28"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total28"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto29"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio29"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje29"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad29"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total29"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto30"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio30"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje30"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad30"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total30"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto31"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio31"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje31"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad31"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total31"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto32"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio32"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje32"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad32"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total32"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto33"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio33"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje33"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad33"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total33"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto34"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio34"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje34"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad34"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total34"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto35"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio35"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje35"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad35"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total35"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto36"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio36"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje36"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad36"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total36"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto37"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio37"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje37"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad37"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total37"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto38"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio38"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje38"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad38"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total38"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto39"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio39"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje39"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad39"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total39"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto40"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio40"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje40"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad40"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total40"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto41"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio41"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje41"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad41"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total41"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto42"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio42"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje42"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad42"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total42"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto43"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio43"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje43"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad43"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total43"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto44"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio44"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje44"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad44"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total44"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Producto45"
+                android:gravity="left"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/Precio45"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Porcentaje45"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Cantidad45"
+                android:gravity="center"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/Total45"
+                android:gravity="center"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>

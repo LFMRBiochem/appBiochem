@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <!--android:weightSum="1"-->
+    <Button
+        android:id="@+id/id_cerrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstylesalir"
+        android:text="Cerrar"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <Button
+            android:text="Introduccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prod_intro"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/buttonstyleprods2"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:text="Ventajas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prod_ventajas"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/buttonstyleprods2"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:text="Indicaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prod_indicaciones"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/buttonstyleprods2"
+            android:textColor="@android:color/background_light"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

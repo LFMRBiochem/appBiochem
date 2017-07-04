@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.com.sybrem.appbiochem"
+    android:versionCode="22"
+    android:versionName="3.7" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="mx.com.sybrem.appbiochem.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="mx.com.sybrem.appbiochem.CapturaPedidos" />
+        <activity android:name="mx.com.sybrem.appbiochem.CapturaPedidos2" />
+        <activity android:name="mx.com.sybrem.appbiochem.CapturaPedidosGuardar" />
+        <activity android:name="mx.com.sybrem.appbiochem.CapturaPedidoExtendido" />
+        <activity android:name="mx.com.sybrem.appbiochem.CapturaBonificacion" />
+        <activity android:name="mx.com.sybrem.appbiochem.Login" />
+        <activity android:name="mx.com.sybrem.appbiochem.EligeRuta" />
+        <activity android:name="mx.com.sybrem.appbiochem.CapturaVisita" />
+        <activity android:name="mx.com.sybrem.appbiochem.Marketing" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.NavDrawerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.CapturaPagos"
+            android:label="@string/app_name" />
+        <activity android:name="mx.com.sybrem.appbiochem.InventarioMano" />
+        <!-- <activity android:name=".RutaSemanal" /> -->
+        <activity
+            android:name="mx.com.sybrem.appbiochem.ListaProductos"
+            android:label="@string/title_activity_lista_productos"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- android:screenOrientation="portrait" -->
+        <activity
+            android:name="mx.com.sybrem.appbiochem.Lista_Clientes"
+            android:label="@string/title_activity_lista__clientes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.ListaOfertas"
+            android:label="@string/title_activity_lista_ofertas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.RutaSemana"
+            android:label="@string/title_activity_ruta_semana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.SeguimientoDePagos"
+            android:label="@string/title_activity_seguimiento_de_pagos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.SeguimientoDePedidos"
+            android:label="@string/title_activity_seguimiento_de_pedidos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.Capturas_"
+            android:label="@string/title_activity_capturas_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="mx.com.sybrem.appbiochem.AltaCliente" />
+        <activity android:name="mx.com.sybrem.appbiochem.Comprobacion" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.Politicas"
+            android:label="@string/title_activity_politicas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="mx.com.sybrem.appbiochem.ComprobacionPartidas" />
+        <activity android:name="mx.com.sybrem.appbiochem.Politics" />
+        <activity android:name="mx.com.sybrem.appbiochem.ExamenPrueba" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.Novedades"
+            android:label="@string/title_activity_novedades"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.MenuComprobaciones"
+            android:label="@string/title_activity_menu_comprobaciones"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="mx.com.sybrem.appbiochem.ComprobacionHonorarios" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.ComprobacionHonorariosPartidas"
+            android:label="@string/title_activity_comprobacion_honorarios_partidas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/EasyPermissions.Transparent" />
+
+        <service
+            android:name="com.android.tools.fd.runtime.InstantRunService"
+            android:exported="true" />
+    </application>
+
+</manifest>

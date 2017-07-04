@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Biochem</string>
+    <string name="lbl_cliente">Cliente: </string>
+    <string name="lbl_familia">Familia: </string>
+    <string name="btn_enviar">Guardar</string>
+    <string name="lbl_subTipo">SubTipo: </string>
+    <string name="lbl_tipo_venta">Tipo Venta: </string>
+    <string name="lbl_conducto">Conducto: </string>
+    <string name="lbl_comentarios">Comentarios: </string>
+
+    <string name="lbl_partida">#</string>
+    <string name="lbl_producto">PRODUCTO</string>
+    <string name="lbl_precio">PRECIO U</string>
+    <string name="lbl_porcentaje_desc">% DESC</string>
+    <string name="lbl_cantidad">CANTIDAD</string>
+    <string name="lbl_total">TOTAL</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="almacen">ALMACEN</string>
+    <string name="guardar_bonificacion">Guardar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_gracias">NO GRACIAS</string>
+    <string name="seleccione_algun_agente">Seleccione algun Agente:</string>
+
+    <!-- strings del menu -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lista_productos">ListaProductos</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_lista_clientes">Biochem</string>
+    <string name="title_activity_lista__clientes">Lista_Clientes</string>
+    <string name="title_activity_lista_ofertas">ListaOfertas</string>
+    <string name="title_activity_ruta_semana">RutaSemana</string>
+    <string name="title_activity_seguimiento_de_pagos">SeguimientoDePagos</string>
+    <string name="title_activity_seguimiento_de_pedidos">SeguimientoDePedidos</string>
+    <string name="title_activity_capturas_">Capturas_</string>
+    <string name="nombre_del_proveedor">Nombre del Proveedor</string>
+    <string name="rfc_del_proveedor">RFC del proveedor</string>
+    <string name="fecha_de_emision">Fecha de emision:</string>
+    <string name="title_activity_politicas">Politicas</string>
+    <string name="title_activity_novedades">Novedades</string>
+    <string name="title_activity_menu_comprobacion">MenuComprobacion</string>
+    <string name="title_activity_menu_comprobaciones">MenuComprobaciones</string>
+    <string name="title_activity_comprobacion_honorarios_partidas">ComprobacionHonorariosPartidas
+    </string>
+
+</resources>

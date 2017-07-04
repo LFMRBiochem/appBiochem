@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_fondo">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/color_fondo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:text="Cliente:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Cliente"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/NCliente"
+            android:layout_weight="1"
+            android:background="@drawable/edittextstyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:text="RFC:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TRFC" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/RFC"
+            android:background="@drawable/edittextstyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:text="Tipo Contribuyente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tiContribuyente"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipoContribuyente"
+            android:spinnerMode="dialog"
+            android:layout_margin="10dp"
+            android:ems="20"
+            android:background="@drawable/edittextstyle"
+            android:layout_weight="1"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:text="Domicilio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/domici" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/Domicilio"
+            android:background="@drawable/edittextstyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:text="Colonia:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tColonia"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/Colonia"
+            android:background="@drawable/edittextstyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:text="CP:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TC.P." />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/CP"
+            android:background="@drawable/edittextstyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:text="Teléfono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tphone"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/phone"
+            android:layout_weight="1"
+            android:background="@drawable/edittextstyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/temail" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email"
+            android:text=""
+            android:background="@drawable/edittextstyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+
+        <TextView
+            android:text="Estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tEstado" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Estado"
+            android:spinnerMode="dialog"
+            android:layout_margin="10dp"
+            android:ems="20"
+            android:background="@drawable/edittextstyle"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:text="Localidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tLocalidad" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Localidad"
+            android:spinnerMode="dialog"
+            android:layout_margin="10dp"
+            android:ems="20"
+            android:background="@drawable/edittextstyle"
+            ></Spinner>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="3">
+        <TableRow></TableRow>
+
+        <TableRow android:layout_margin="20dp">
+
+            <Button
+                android:text="Salir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Regresar"
+                android:background="@drawable/buttonstylesalir"
+                android:textColor="#FFFFFF"
+                tools:textStyle="bold"
+                android:layout_marginRight="5dp" />
+
+            <Button
+                android:text="Guardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Guardar"
+                android:background="@drawable/buttonstylesiguiente"
+                android:textColor="#FFFFFF"
+                tools:textStyle="bold"
+                style="?android:attr/buttonStyleSmall"
+                android:ems="5" />
+        </TableRow>
+
+        <TableRow />
+
+        <TableRow/>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+
+        <TextView
+            android:id="@+id/mensaje_gps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LATITUDE LONGITUDE" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

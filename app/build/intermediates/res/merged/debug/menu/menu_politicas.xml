@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.com.sybrem.appbiochem.Politicas">
+    <!--<item
+        android:id="@+id/action_politicas"
+        android:orderInCategory="100"
+        android:title="Salir"
+        app:showAsAction="never" />-->
+    <!-- jkbbs-->
+</menu>

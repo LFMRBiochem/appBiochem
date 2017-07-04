@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores para el navbar -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#303F9F</color>
+
+    <color name="color_primary">#337ab7</color>
+    <color name="color_refresh">#FFFFFF</color>
+    <color name="color_salir">#a22525</color>
+    <color name="color_fondo">#d8e1eb</color>
+    <color name="color_fondo_productos">#d8e1eb</color>
+    <color name="color_salir_n">#e54545</color>
+</resources>
