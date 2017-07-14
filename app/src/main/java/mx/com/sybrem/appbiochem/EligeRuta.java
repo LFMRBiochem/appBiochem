@@ -131,7 +131,7 @@ public class EligeRuta extends AppCompatActivity {
         String usuario = dbHandler.ultimoUsuarioRegistrado();
 
         Intent explicit_intent;
-        explicit_intent = new Intent(EligeRuta.this, NavDrawerActivity.class);
+        explicit_intent = new Intent(EligeRuta.this, ReporteVenta.class);
         explicit_intent.putExtra("usuario", usuario);
         startActivity(explicit_intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
         //return;

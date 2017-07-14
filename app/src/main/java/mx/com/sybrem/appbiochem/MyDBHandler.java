@@ -74,6 +74,7 @@ public class MyDBHandler extends SQLiteOpenHelper
     public static final String TABLE_VN_SEGUIMIENTO_DE_PAGOS = "vn_seguimiento_de_pagos";
     public static final String TABLE_VN_PROGRAMA_RUTAS_SEMANALES = "vn_programa_rutas_semanales";
     public static final String TABLE_VN_POLITICAS="vn_politicas";
+    public static final String TABLE_VN_REPORTE_VENTAS="vn_reporte_ventas";
 
     // Definici—n de los nombres de columnas de cada tabla y los TAG JSON
 
@@ -991,6 +992,22 @@ public class MyDBHandler extends SQLiteOpenHelper
     public static final String TAG_VNPOLITICAS_ID_IMAGEN="id_imagen";
     public static final String TAG_VNPOLITICAS_IMAGEN="imagen";
 
+
+    // Tabla vn_reporte_ventas +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    public static final String COL_VNREPORTEVENTAS_CVE_CAT_PRODUCTO="cve_cat_producto";
+    public static final String COL_VNREPORTEVENTAS_NOM_PRODCUTO="nom_producto";
+    public static final String COL_VNREPORTEVENTAS_VENDIDO="vendido";
+    public static final String COL_VNREPORTEVENTAS_DIA="dia";
+    public static final String COL_VNREPORTEVENTAS_IMAGEN="imagen";
+
+    // TAG vn_reporte_ventas +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    public static final String TAG_VNREPORTEVENTAS_CVE_CAT_PRODUCTO="cve_cat_producto";
+    public static final String TAG_VNREPORTEVENTAS_NOM_PRODCUTO="nom_producto";
+    public static final String TAG_VNREPORTEVENTAS_VENDIDO="vendido";
+    public static final String TAG_VNREPORTEVENTAS_DIA="dia";
+    public static final String TAG_VNREPORTEVENTAS_IMAGEN="imagen";
+
+
     // En el contexto de la clase genera la Base de datos verificando la versi—n. En el caso de la base creada con
     // Esta versi—n ya registrada no efectua operacion ninguna
     public MyDBHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version)
@@ -1556,6 +1573,15 @@ public class MyDBHandler extends SQLiteOpenHelper
                 ")";
         db.execSQL(CREATE_VN_POLITICAS);
 
+        //Bloque para la tabla de reporte de venta por mes por producto
+        String CREATE_VN_REPORTEVENTAS="CREATE TABLE IF NOT EXISTS "+TABLE_VN_REPORTE_VENTAS+"("+
+                COL_VNREPORTEVENTAS_CVE_CAT_PRODUCTO+" INTEGER PRIMARY KEY, "+
+                COL_VNREPORTEVENTAS_NOM_PRODCUTO+" TEXT, "+
+                COL_VNREPORTEVENTAS_VENDIDO+" TEXT, "+
+                COL_VNREPORTEVENTAS_DIA+" TEXT, "+
+                COL_VNREPORTEVENTAS_IMAGEN+" TEXT "+
+                ")";
+        db.execSQL(CREATE_VN_REPORTEVENTAS);
 
     } // Cierre del onCreate
 
@@ -1600,6 +1626,7 @@ public class MyDBHandler extends SQLiteOpenHelper
         db.execSQL("DROP TABLE IF EXISTS "+ TABLE_GL_CAT_LOCALIDADES);
         db.execSQL("DROP TABLE IF EXISTS "+ TABLE_VN_CLIENTES_SEGUIMIENTO);
         db.execSQL("DROP TABLE IF EXISTS "+ TABLE_VN_POLITICAS);
+        db.execSQL("DROP TABLE IF EXISTS "+ TABLE_VN_REPORTE_VENTAS);
 
         onCreate(db);
     }
@@ -1643,6 +1670,11 @@ public class MyDBHandler extends SQLiteOpenHelper
         db.close();
     }
 
+    public void resetReporteVentas(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.execSQL("DELETE FROM  " + TABLE_VN_REPORTE_VENTAS);
+        db.close();
+    }
 
     // Vacia las tablas de catalogos para dejarlas listas para sincronizacion.
     public void resetPedidos()
@@ -2327,6 +2359,23 @@ public class MyDBHandler extends SQLiteOpenHelper
         }
         SQLiteDatabase db = this.getWritableDatabase();
         db.insert(TABLE_VN_POLITICAS, null, values);
+        db.close();
+    }
+
+    public void insertaReporteVentas(JSONObject jsonObj){
+        ContentValues values=new ContentValues();
+        try{
+            values.put(COL_VNREPORTEVENTAS_CVE_CAT_PRODUCTO,jsonObj.getString(TAG_VNREPORTEVENTAS_CVE_CAT_PRODUCTO));
+            values.put(COL_VNREPORTEVENTAS_NOM_PRODCUTO,jsonObj.getString(TAG_VNREPORTEVENTAS_NOM_PRODCUTO));
+            values.put(COL_VNREPORTEVENTAS_VENDIDO,jsonObj.getString(TAG_VNREPORTEVENTAS_VENDIDO));
+            values.put(COL_VNREPORTEVENTAS_DIA,jsonObj.getString(TAG_VNREPORTEVENTAS_DIA));
+            values.put(COL_VNREPORTEVENTAS_IMAGEN,jsonObj.getString(TAG_VNREPORTEVENTAS_IMAGEN));
+        }
+        catch(JSONException e){
+            e.printStackTrace();
+        }
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.insert(TABLE_VN_REPORTE_VENTAS, null, values);
         db.close();
     }
 
@@ -4353,6 +4402,45 @@ public class MyDBHandler extends SQLiteOpenHelper
         }
         cursor.close();
         return imgpoliticas.toArray(new String[imgpoliticas.size()]);
+    }
+
+
+    public String getReporteVentas() {
+        Cursor cursor = getReadableDatabase().rawQuery("SELECT nom_producto, vendido FROM vn_reporte_ventas ORDER BY nom_producto", null);
+        String JSON_armado = "[", nom_producto = "", vendido = "", dia = "", imagen = "", json = "";
+        if (cursor.getCount() > 0){
+            cursor.moveToFirst();
+            //String JSON_armado = "[", nom_producto = "", vendido = "", dia = "", imagen = "", json = "";
+            while (!cursor.isAfterLast()) {
+                nom_producto = cursor.getString(cursor.getColumnIndex("nom_producto"));
+                vendido = cursor.getString(cursor.getColumnIndex("vendido"));
+                /*dia = cursor.getString(cursor.getColumnIndex("dia"));
+                imagen = cursor.getString(cursor.getColumnIndex("imagen"));*/
+                //json = "{\"nom_producto\":\"" + nom_producto + "\",\"vendido\":\"" + vendido + "\",\"dia\":\"" + dia + "\",\"imagen\":\"" + imagen + "\"},";
+                json = "{\"nom_producto\":\"" + nom_producto + "\",\"vendido\":\"" + vendido + "\"},";
+                JSON_armado += json;
+                cursor.moveToNext();
+            }
+        }
+        JSON_armado=JSON_armado+"]";
+        cursor.close();
+        return JSON_armado;
+    }
+
+    // obtiene la fecha y hora del reporte de ventas
+    public String getReporteVentasFecha() {
+        Cursor cursor = getReadableDatabase().rawQuery("SELECT dia FROM vn_reporte_ventas LIMIT 1", null);
+        String dia = "";
+        if (cursor.getCount() > 0){
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                dia=cursor.getString(cursor.getColumnIndex("dia"));
+                cursor.moveToNext();
+            }
+
+        }
+        cursor.close();
+        return dia;
     }
 
 } // Fin de la definici—n clase: MyDBHandler

@@ -1,491 +1,11 @@
 [
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_elige_ruta.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_elige_ruta.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_nav_drawer.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\app_bar_nav_drawer.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_capturas_.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_capturas_.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_bonificacion.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_bonificacion.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_nav_drawer.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\content_nav_drawer.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_ruta_semana.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_politics.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\content_politics.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inventario_mano.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_inventario_mano.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nav_drawer.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_nav_drawer.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lista_ofertas.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_lista_ofertas.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_nav_drawer.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\nav_header_nav_drawer.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_capturas_prospectos.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_capturas_prospectos.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inventario_mano.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_inventario_mano.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comprobacion_partidas.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_comprobacion_partidas.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_politicas.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_politicas.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_novedades.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_novedades.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comprobacion_honorarios.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_comprobacion_honorarios.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_marketing.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_marketing.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_pedidos.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pedidos.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_pedidos2.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pedidos2.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_capturas_pagos.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_capturas_pagos.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_lista__clientes.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\content_lista__clientes.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listheader.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\listheader.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_provisional.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\popup_provisional.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seguimiento_de_pagos.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_seguimiento_de_pagos.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_provisional.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\popup_provisional.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\91a893234fd1df162ed7db5912a7c3807e51b555\\output\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana3.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_ruta_semana3.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_pedidos_guardar.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pedidos_guardar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\91a893234fd1df162ed7db5912a7c3807e51b555\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista_ofertas_veterinaria.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista_ofertas_veterinaria.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista__clientes.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista__clientes.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana4.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_ruta_semana4.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capturas_.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_capturas_.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comprobacion.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_comprobacion.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_capturas_visitas.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_capturas_visitas.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seguimiento_de_pedidos.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_seguimiento_de_pedidos.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seguimiento_de_pedidos.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_seguimiento_de_pedidos.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana5.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_ruta_semana5.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lista__clientes.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_lista__clientes.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lista_productos.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_lista_productos.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nav_drawer.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_nav_drawer.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista_productos_veterinaria.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista_productos_veterinaria.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_seguimiento_de_pagos.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_seguimiento_de_pagos.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\91a893234fd1df162ed7db5912a7c3807e51b555\\output\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista_productos.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista_productos.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alta_cliente.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_alta_cliente.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana3.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_ruta_semana3.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_novedades.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_novedades.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_ruta_semana.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_pagos.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pagos.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comprobacion_partidas.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_comprobacion_partidas.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\91a893234fd1df162ed7db5912a7c3807e51b555\\output\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\91a893234fd1df162ed7db5912a7c3807e51b555\\output\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista__clientes.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista__clientes.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capturas_.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_capturas_.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_nav_drawer.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\content_nav_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana2.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_ruta_semana2.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_capturas_visitas.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_capturas_visitas.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_pagos.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pagos.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_politicas.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_politicas.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_pedidos.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pedidos.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_bonificacion.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_bonificacion.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu_comprobaciones.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_menu_comprobaciones.xml"
-    },
-    {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -504,24 +24,32 @@
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pedidos_guardar.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_elige_ruta.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_elige_ruta.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lista_productos.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_lista_productos.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_nav_drawer.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\app_bar_nav_drawer.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_novedades.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\content_novedades.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_genera_auxiliar.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_genera_auxiliar.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inventario_mano.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_inventario_mano.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -532,12 +60,20 @@
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_pedido_extendido.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pedido_extendido.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lista_ofertas.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_lista_ofertas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_nav_drawer.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\nav_header_nav_drawer.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
@@ -548,24 +84,32 @@
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\popup.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_seguimiento_de_pedidos_no_confirmados.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_seguimiento_de_pedidos_no_confirmados.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_politics.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_politics.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reporte_venta.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_reporte_venta.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ruta_semana.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_ruta_semana.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_novedades.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_novedades.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comprobacion_honorarios.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_comprobacion_honorarios.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_pedidos2.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pedidos2.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_politics.xml",
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\content_politics.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lista__clientes.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_lista__clientes.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
@@ -576,28 +120,28 @@
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pedido_extendido.xml"
     },
     {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_capturas_pagos.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_capturas_pagos.xml"
+    },
+    {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_lista__clientes.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\content_lista__clientes.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_seguimiento_de_pagos.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_seguimiento_de_pagos.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_submenu.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\list_submenu.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_nav_drawer.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\app_bar_nav_drawer.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_capturas_.xml",
@@ -616,6 +160,10 @@
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\notification_template_media.xml"
     },
     {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comprobacion_honorarios_partidas.xml",
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_comprobacion_honorarios_partidas.xml"
     },
@@ -628,32 +176,28 @@
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_provisional.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\popup_provisional.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_seguimiento_de_pedidos_no_confirmados.xml",
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_seguimiento_de_pedidos_no_confirmados.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_nav_drawer.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\nav_header_nav_drawer.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_comprobacion_honorarios_partidas.xml",
-        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\content_comprobacion_honorarios_partidas.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista_productos_veterinaria.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista_productos_veterinaria.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_comprobacion_honorarios_partidas.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\content_comprobacion_honorarios_partidas.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -664,6 +208,14 @@
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_politicas.xml"
     },
     {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista_ofertas_veterinaria.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista_ofertas_veterinaria.xml"
+    },
+    {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
@@ -672,24 +224,24 @@
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reportillo.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\reportillo.xml"
+    },
+    {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_submenu.xml",
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\list_submenu.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comprobacion.xml",
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_comprobacion.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_examen_prueba.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_examen_prueba.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana4.xml",
@@ -704,32 +256,16 @@
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_capturas_prospectos.xml",
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_capturas_prospectos.xml"
     },
     {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seguimiento_de_pedidos.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_seguimiento_de_pedidos.xml"
+    },
+    {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
@@ -740,56 +276,76 @@
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\popup_productos.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_text_input_password_icon.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lista__clientes.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_lista__clientes.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lista_productos.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_lista_productos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nav_drawer.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_nav_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista_productos_veterinaria.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista_productos_veterinaria.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ruta_semana.xml",
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_ruta_semana.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_seguimiento_de_pagos.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_seguimiento_de_pagos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_menu_item_action_area.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista_productos.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista_productos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alta_cliente.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_alta_cliente.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana3.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_ruta_semana3.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_ruta_semana.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seguimiento_de_pagos.xml",
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_seguimiento_de_pagos.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista_ofertas.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista_ofertas.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista_ofertas_veterinaria.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista_ofertas_veterinaria.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_pagos.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pagos.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_seguimiento_de_pedidos.xml",
@@ -800,16 +356,12 @@
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_politicas.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_lista__clientes.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\content_lista__clientes.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_auxiliar_menu.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_auxiliar_menu.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_visita.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_visita.xml"
-    },
-    {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista_productos.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista_productos.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
@@ -820,28 +372,28 @@
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_visita.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_seguimiento_de_pedidos.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_seguimiento_de_pedidos.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_capturas_pagos.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_capturas_pagos.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comprobacion_partidas.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_comprobacion_partidas.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_elige_ruta.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_elige_ruta.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana2.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_ruta_semana2.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_productos.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\popup_productos.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista__clientes.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_lista__clientes.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\popup.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capturas_.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_capturas_.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana5.xml",
@@ -852,8 +404,28 @@
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_nav_drawer.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\content_nav_drawer.xml"
+    },
+    {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ruta_semana2.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_ruta_semana2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_capturas_visitas.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\fragment_capturas_visitas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lista_ofertas.xml",
@@ -864,36 +436,32 @@
         "source": "C:\\Users\\Sistemas\\.android\\build-cache\\904a81f87a71dfa359a66bd5b3ff04d6bb688178\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alta_cliente.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_alta_cliente.xml"
-    },
-    {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listheader.xml",
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\listheader.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_pedidos2.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pedidos2.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_pedidos.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_pedidos.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_captura_bonificacion.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_captura_bonificacion.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lista_ofertas.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_lista_ofertas.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Sistemas\\.android\\build-cache\\d1916767de42f52ccbf53278db0edb9a67cd9934\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_examen_prueba.xml",
         "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_examen_prueba.xml"
     },
     {
-        "merged": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "S:\\Otros\\Proyectos Android Studio\\APP BIOCHEM ACTUAL\\appBiochem\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu_comprobaciones.xml",
+        "source": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\src\\main\\res\\layout\\activity_menu_comprobaciones.xml"
     },
     {
         "merged": "C:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_menu_comprobaciones.xml",

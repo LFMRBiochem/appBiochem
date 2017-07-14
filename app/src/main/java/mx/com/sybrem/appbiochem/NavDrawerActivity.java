@@ -245,6 +245,9 @@ public class NavDrawerActivity extends AppCompatActivity
                             startActivity(explicit_intent);break;
                         case 4:explicit_intent = new Intent(mx.com.sybrem.appbiochem.NavDrawerActivity.this,MenuComprobaciones.class);
                             explicit_intent.putExtra("usuario",usuario);
+                            startActivity(explicit_intent);break;
+                        case 5:explicit_intent = new Intent(mx.com.sybrem.appbiochem.NavDrawerActivity.this,AuxiliarMenu.class);
+                            explicit_intent.putExtra("usuario",usuario);
                             startActivity(explicit_intent);
                     }break;
                     case 4:switch(childPosition){
@@ -324,6 +327,7 @@ public class NavDrawerActivity extends AppCompatActivity
         heading4.add("Registro de Visita");
         heading4.add("Prospectos");
         heading4.add("Comprobaciones");
+        heading4.add("Mi contabilidad");
 
         List<String> heading5 = new ArrayList<String>();
         heading5.add("Sincronizar");

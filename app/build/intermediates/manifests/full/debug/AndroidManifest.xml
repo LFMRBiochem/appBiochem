@@ -109,6 +109,16 @@
             android:name="mx.com.sybrem.appbiochem.ComprobacionHonorariosPartidas"
             android:label="@string/title_activity_comprobacion_honorarios_partidas"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="mx.com.sybrem.appbiochem.AuxiliarMenu" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.GeneraAuxiliar"
+            android:configChanges="orientation"
+            android:label="GenerarAuxiliar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="mx.com.sybrem.appbiochem.ReporteVenta"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
         <activity
             android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
             android:exported="false"

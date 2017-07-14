@@ -122,7 +122,7 @@ public class Login extends AppCompatActivity {
 
                             if(ruta.length() > 0) {
                                 Intent explicit_intent;
-                                explicit_intent = new Intent(Login.this, NavDrawerActivity.class);
+                                explicit_intent = new Intent(Login.this, ReporteVenta.class);
                                 explicit_intent.putExtra("usuario", usuario);
                                 startActivity(explicit_intent);
                                 return;

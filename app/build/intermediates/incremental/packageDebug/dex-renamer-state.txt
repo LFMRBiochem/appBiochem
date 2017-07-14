@@ -1,4 +1,7 @@
-#Mon Jun 12 15:50:46 CDT 2017
-base.0=C\:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Fri Jul 14 10:42:32 CDT 2017
+base.0=C\:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6a1c102f713675b6f29c37e8616208313c2bb79e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_bc8a6ccb0ba0c903cc991ccbec1f1d0140bd0dd4\\classes.dex
+base.1=C\:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_bc8a6ccb0ba0c903cc991ccbec1f1d0140bd0dd4
+file.0=C\:\\Users\\Sistemas\\Documents\\Android Studio\\appBiochem ACTUAL\\appBiochem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6a1c102f713675b6f29c37e8616208313c2bb79e\\classes.dex

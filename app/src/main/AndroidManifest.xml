@@ -98,7 +98,16 @@
         <activity
             android:name=".ComprobacionHonorariosPartidas"
             android:label="@string/title_activity_comprobacion_honorarios_partidas"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AuxiliarMenu" />
+        <activity
+            android:name=".GeneraAuxiliar"
+            android:label="GenerarAuxiliar"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ReporteVenta"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sistemas\Documents\Android Studio\appBiochem ACTUAL\appBiochem\app\libs\android-smart-image-view-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d76ea8c3e9a60101244d6d04aff8cc75888570f0">
+        <dex dex="C:\Users\Sistemas\Documents\Android Studio\appBiochem ACTUAL\appBiochem\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-smart-image-view-1.0.0_f209192df86acc6900397aa079e2ee8ad553e271\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sistemas\Documents\Android Studio\appBiochem ACTUAL\appBiochem\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f973161aed9180d2bb404ea7d627825dfb7b628d">
+        <dex dex="C:\Users\Sistemas\Documents\Android Studio\appBiochem ACTUAL\appBiochem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6a1c102f713675b6f29c37e8616208313c2bb79e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sistemas\Documents\Android Studio\appBiochem ACTUAL\appBiochem\app\libs\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Sistemas\Documents\Android Studio\appBiochem ACTUAL\appBiochem\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.3.1_e0ef291f33b2e82a7ff0403eb88b2e18e4007fab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sistemas\Documents\Android Studio\appBiochem ACTUAL\appBiochem\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Sistemas\Documents\Android Studio\appBiochem ACTUAL\appBiochem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bc8a6ccb0ba0c903cc991ccbec1f1d0140bd0dd4\classes.dex" />
+    </item>
+
+</items>

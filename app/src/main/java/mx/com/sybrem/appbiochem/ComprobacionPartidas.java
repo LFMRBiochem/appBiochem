@@ -190,8 +190,6 @@ public class ComprobacionPartidas extends AppCompatActivity {
 
                                 String proveedor_selec = String.valueOf(autoCompleteProveedor1.getText().toString());
 
-
-
                                 //Cuando se da clic en el boton del calendario
                                 btn1.setOnClickListener(new View.OnClickListener(){
 
